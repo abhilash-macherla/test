@@ -6,7 +6,7 @@
 		<groupId>org.springframework.boot</groupId>
 		<artifactId>spring-boot-starter-parent</artifactId>
 		<version>2.7.11</version>
-		<relativePath/> <!-- lookup parent from repository -->
+		<relativePath /> <!-- lookup parent from repository -->
 	</parent>
 	<groupId>com.ashokit.insurance</groupId>
 	<artifactId>01-Insurance_Application</artifactId>
@@ -30,7 +30,6 @@
 			<groupId>org.springframework.boot</groupId>
 			<artifactId>spring-boot-starter-web</artifactId>
 		</dependency>
-
 		<dependency>
 			<groupId>org.springframework.boot</groupId>
 			<artifactId>spring-boot-devtools</artifactId>
@@ -52,49 +51,41 @@
 			<artifactId>spring-boot-starter-tomcat</artifactId>
 			<scope>provided</scope>
 		</dependency>
-		
 		<dependency>
-			<groupId>javax.servlet</groupId> 
+			<groupId>javax.servlet</groupId>
 			<artifactId>jstl</artifactId>
 		</dependency>
-		
 		<dependency>
-			<groupId>org.apache.tomcat.embed</groupId> 
+			<groupId>org.apache.tomcat.embed</groupId>
 			<artifactId>tomcat-embed-jasper</artifactId>
 		</dependency>
-
 		<dependency>
-		    <groupId>org.apache.poi</groupId>
-		    <artifactId>poi</artifactId>
-		    <version>5.2.2</version>
+			<groupId>org.apache.poi</groupId>
+			<artifactId>poi</artifactId>
+			<version>5.2.2</version>
 		</dependency>
-
 		<dependency>
 			<groupId>com.github.librepdf</groupId>
-			<artifactId>openpdf</artifactId> 
+			<artifactId>openpdf</artifactId>
 			<version>1.3.26</version>
 		</dependency>
-		
- <!-- add a depency on javax.mail, in addition to the dependency on camel-mail -->
-
-	    <dependency>
-	        <groupId>org.apache.camel</groupId>
-	        <artifactId>camel-mail</artifactId>
-	        <version>2.10.0</version>
-	    </dependency>
-	    <dependency>
-	        <groupId>com.sun.mail</groupId>
-	        <artifactId>javax.mail</artifactId>
-	        <version>1.5.1</version>
-	    </dependency>
-
+		<!-- add a depency on javax.mail, in addition to the dependency on camel-mail -->
+		<dependency>
+			<groupId>org.apache.camel</groupId>
+			<artifactId>camel-mail</artifactId>
+			<version>2.10.0</version>
+		</dependency>
+		<dependency>
+			<groupId>com.sun.mail</groupId>
+			<artifactId>javax.mail</artifactId>
+			<version>1.5.1</version>
+		</dependency>
 		<dependency>
 			<groupId>org.springframework.boot</groupId>
 			<artifactId>spring-boot-starter-test</artifactId>
 			<scope>test</scope>
 		</dependency>
 	</dependencies>
-
 	<build>
 		<plugins>
 			<plugin>
@@ -111,5 +102,4 @@
 			</plugin>
 		</plugins>
 	</build>
-
 </project>
